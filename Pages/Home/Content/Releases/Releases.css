@@ -1,0 +1,8 @@
+/* Ẩn thanh cuộn trong Chrome và Safari */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+#container {
+    display: flex;
+    transition: transform 0.3s ease; /* Thời gian 0.3 giây và chế độ chuyển đổi "ease" */
+}
